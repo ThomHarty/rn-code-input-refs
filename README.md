@@ -1,6 +1,6 @@
 ## React Native Code Input with Refs
 
-React Native Code Input using refs instead of a masked and hidden TextInput
+React Native Code Input using Refs instead of a masked and hidden TextInput
 
 #### Install
 
@@ -17,7 +17,7 @@ npm i rn-code-input-refs
 ```ts
 import React, {ReactElement} from 'react';
 import {SafeAreaView} from 'react-native';
-import {CodeInput, ICodeInputProps} from 'rn-text-and-links';
+import {CodeInput, ICodeInputProps} from 'rn-code-input-refs';
 
 export const App = (): ReactElement => {
   const props: ICodeInputProps = {
