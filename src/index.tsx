@@ -99,7 +99,9 @@ export const CodeInput = ({
 }
 
 const styles = StyleSheet.create({
-  container: {},
+  container: {
+    flexDirection: 'row',
+  },
   input: {
     margin: 5,
     backgroundColor: '#ebebeb',
