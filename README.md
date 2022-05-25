@@ -15,21 +15,21 @@ npm i rn-code-input-refs
 #### Example
 
 ```ts
-import React, {ReactElement} from 'react';
-import {SafeAreaView} from 'react-native';
-import {CodeInput, ICodeInputProps} from 'rn-code-input-refs';
+import React, {ReactElement} from 'react'
+import {SafeAreaView} from 'react-native'
+import {CodeInput, ICodeInputProps} from 'rn-code-input-refs'
 
 export const App = (): ReactElement => {
   const props: ICodeInputProps = {
     onEndCodeInput: (code) => console.log(code)
-  };
+  }
 
   return (
     <SafeAreaView>
       <CodeInput {...props} />
     </SafeAreaView>
-  );
-};
+  )
+}
 ```
 
 ### Props
