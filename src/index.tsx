@@ -9,8 +9,8 @@ interface ICode {
 }
 
 export interface ICodeInputProps {
-  containerStyles: ViewStyle
-  inputStyles: TextStyle
+  containerStyles?: ViewStyle
+  inputStyles?: TextStyle
   onEndCodeInput: (code: string) => void
 }
 
@@ -99,13 +99,7 @@ export const CodeInput = ({
 }
 
 const styles = StyleSheet.create({
-  container: {
-    height: '100%',
-    width: '100%',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  container: {},
   input: {
     margin: 5,
     backgroundColor: '#ebebeb',
